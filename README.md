@@ -1,19 +1,26 @@
-# 🎈 Blank app template
-
-A simple Streamlit app template for you to modify!
+# Assistant TD - v0
 
 [![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://blank-app-template.streamlit.app/)
 
-### How to run it on your own machine
+### Comment accéder au codespace pour faire des modifications
 
-1. Install the requirements
+1. Se connecter à Streamlit
+2. Cliquer sur les 3 points à droite de l'app correspondante et sélectionner "Edit with Codespaces"
 
-   ```
-   $ pip install -r requirements.txt
-   ```
+### Comment pousser les modifications sur git
 
-2. Run the app
-
+1. Ajouter les modifications
    ```
-   $ streamlit run streamlit_app.py
+   $ git add streamlit_app.py exercises.json
    ```
+2. Commit les modification
+```
+   $ git commit -m"<message qui explique les modifications>"
+   ```
+3. Pousser les modifications
+```
+   $ git push origin main
+   ```
+4. Vérifier que les changements se sont déployés dans l'application en ligne
+   Streamlit fait le déploiement automatiquement et il n'y a pas de raison que ça ne marche pas. Aller sur le lien de l'application et tester que les modifications sont bien prises en compte.
+   https://assistant-td.streamlit.app/

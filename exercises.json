@@ -7,8 +7,7 @@
                     "1": "Vérifier soigneusement les hypothèses du théorème de la bijection strictement monotone. On fera attention aux intervalles entre lesquels $f$ réalise une bijection.",
                     "2": "Remarquer que $f(x_{n+1}) > f(x_n)$ et exploiter les propriétés de $f$. Montrer d’abord l’inégalité de droite en exploitant la positivité de $x_n$.",
                     "3": "Essayer d'utiliser les théorèmes de minoration et d’encadrement."
-                },
-                "correction": "Pas de correction disponible"
+                }
             },
             "2": {
                 "hints": {
@@ -16,8 +15,7 @@
                     "2": "L'indice 2 s'affiche",
                     "3": "L'indice 3 s'affiche",
                     "4": "L'indice 4 s'affiche"
-                },
-                "correction": "Pas de correction disponible"
+                }
             }
         }
     },
@@ -28,16 +26,14 @@
                 "hints": {
                     "1": "L'indice 1 s'affiche",
                     "2": "L'indice 2 s'affiche"
-                },
-                "correction": "Pas de correction disponible"
+                }
             },
             "2": {
                 "hints": {
                     "1": "L'indice 1 s'affiche",
                     "2": "L'indice 2 s'affiche",
                     "3": "L'indice 3 s'affiche"
-                },
-                "correction": "Pas de correction disponible"
+                }
             }
         }
     },
@@ -49,8 +45,7 @@
                     "1": "L'indice 1 s'affiche",
                     "2": "L'indice 2 s'affiche",
                     "3": "L'indice 3 s'affiche"
-                },
-                "correction": "Pas de correction disponible"
+                }
             }
         }
     }
