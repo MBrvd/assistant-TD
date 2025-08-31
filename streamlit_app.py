@@ -24,6 +24,8 @@ def exercise_page():
     chapter_number = st.session_state["chapter_number"]
     exercises = chapters_content[chapter_number]["exercises"]
 
+    if exercises == {}:
+        st.markdown("Pas d'exercice disponible pour ce chapitre pour l'instant.")
     for exercise_number, exercise_content in exercises.items():
         with st.container(border=True):
             st.markdown(f"**Exercice {exercise_number}**")
